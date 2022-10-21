@@ -6,7 +6,7 @@ def main(list1,n,k):
         n(int): parameter
         k(int): parameter
     Returns:
-        list: return answer.
+        list: return answer.  
     """
     return list1[n:k]
 print(main([1,3,2,2,5,8,6,6],2,3))
